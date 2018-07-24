@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Events</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/home.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script type="text/javascript">
+		$(window).on('scroll', function() {
+			if($(window).scrollTop()){
+				$('nav').addClass('black');
+			}
+			else{
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<nav>
+			<div class="logo">
+				<a href="index.html">Home</a>
+			</div>
+			<ul>
+				<li><a href="story.html">Our Story</a></li>
+				<li><a href="wedding.html">The Wedding</a></li>
+				<li><a href="party.html">Wedding Party</a></li>
+				<li><a href="detail.html">Detail</a></li>
+				<li><a class="active" href="#">Register Now</a></li>
+			</ul>
+		</nav>
+		<div class="sec1">
+			<h3>WE"RE ENGAGED</h3>
+			<p>Sep 01, 2023, 7:00 PM | St. Peter's Chapel</p>
+			<button id="rsvp">RSVP</button>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+  			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  			crossorigin="anonymous">			
+  	</script>
+</body>
+</html>
