@@ -16,7 +16,7 @@ nav{
 }
 
 nav.black{
-	background: rgba(0,0,0,0.8);
+	background: #333333;
 	height: 100px;
 	padding: 10px 100px;
 }
@@ -69,4 +69,12 @@ nav ul li a.active{
 	background: #E2472F;
 	color: #fff;
 	border-radius: 6px;
+}
+
+footer{
+	color: #fff;
+	background: #333333;
+	height: 100%;
+	text-align: center;
+	border: 1px solid #333333;
 }
