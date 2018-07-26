@@ -1,0 +1,84 @@
+.main-banner{
+	margin: 20px auto;
+	width: 1200px;
+	height: 2000px;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid red;
+}
+
+.imgban{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	transition: all ease-in-out 500ms;
+	-webkit-transition: all ease-in-out 500ms;
+	-moz-transition: all ease-in-out 500ms;
+	-o-transition: all ease-in-out 500ms;
+}
+
+#imgban4{
+	height: 400px;
+	background-image: url(img/mfa.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#imgban3{
+	height: 400px;
+	background-image: url(img/aquarium.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#imgban2{
+	height: 400px;
+	background-image: url(img/freedom.JPG);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#imgban1{
+	height: 400px;
+	background-image: url(img/FaneuilHall.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgbanbtn{
+	width: 40px;
+	height: 40px;
+	background-color: #000;
+	border-radius: 4px;
+	position: absolute;
+	top: 180px;
+	z-index: 3000;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.imgbanbtn:hover{
+	opacity: 0.9; 
+}
+
+.imgbanbtn-prev{
+	left: 5px;
+	background-image: url(img/backward-solid.svg);
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgbanbtn-next{
+	right: 5px;
+	background-image: url(img/forward-solid.svg);
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
