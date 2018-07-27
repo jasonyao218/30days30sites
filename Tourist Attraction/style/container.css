@@ -1,0 +1,35 @@
+.description{
+	margin-top: 80px;
+}
+
+.description p{
+	width: 1200px;
+	margin: 30px auto;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.places{
+	margin-top: 80px;
+	width: 1200px;
+	position: relative;
+	left: 120px;
+}
+
+.place{
+	width: 600px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	left: 25%;
+	margin-top: 60px;
+}
+
+.place p{
+	font-size: 20px;
+}
+
+.weather{
+	margin-top: 60px;
+}

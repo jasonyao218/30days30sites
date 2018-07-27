@@ -5,6 +5,7 @@
 	<title>Welcome to Boston!</title>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/banner.css">
+	<link rel="stylesheet" type="text/css" href="style/container.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
@@ -14,10 +15,10 @@
 				<img src="style/img/logo.jpg" alt="logo" id="logo">
 			</div>
 			<ul>
-				<li><a href="#">Things To Do</a></li>
-				<li><a href="#">Food</a></li>
-				<li><a href="#">Weather</a></li>
-				<li><a href="#">More Info</a></li>
+				<li><a href="#places">Things To Do</a></li>
+				<li><a href="#foods">Food</a></li>
+				<li><a href="#weather">Weather</a></li>
+				<li><a href="#footer">More Info</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -29,17 +30,57 @@
 		<div class="img">
 			<div class="imgbanbtn imgbanbtn-prev" id="imgbanbtn-prev"></div>
 			<div class="imgban" id="imgban4"></div>
-			<p>
-				Faneuil Hall, located near the waterfront and today's Government Center, in Boston, Massachusetts, has been a marketplace and a meeting hall since 1743. It was the site of several speeches by Samuel Adams, James Otis, and others encouraging independence from Great Britain. Now it is part of Boston National Historical Park and a well-known stop on the Freedom Trail. It is sometimes referred to as "the Cradle of Liberty".
-			</p>
+			
 			<div class="imgban" id="imgban3"></div>
 			<div class="imgban" id="imgban2"></div>
 			<div class="imgban" id="imgban1"></div>
 			<div class="imgbanbtn imgbanbtn-next" id="imgbanbtn-next"></div>
 		</div>
+	</div>
+	<div class="container">
+		<div class="description">
+			<p>
+				Boston is the capital city and most populous municipality of the Commonwealth of Massachusetts in the United States. The city proper covers 48 square miles (124 km2) with an estimated population of 685,094 in 2017, making it also the most populous city in the New England region. Boston is the seat of Suffolk County as well, although the county government was disbanded on July 1, 1999. The city is the economic and cultural anchor of a substantially larger metropolitan area known as Greater Boston, a metropolitan statistical area (MSA) home to a census-estimated 4.8 million people in 2016 and ranking as the tenth-largest such area in the country. As a combined statistical area (CSA), this wider commuting region is home to some 8.2 million people, making it the sixth-largest in the United States.
+				Boston is one of the oldest cities in the United States, founded on the Shawmut Peninsula in 1630 by Puritan settlers from England. It was the scene of several key events of the American Revolution, such as the Boston Massacre, the Boston Tea Party, the Battle of Bunker Hill, and the Siege of Boston. Upon U.S. independence from Great Britain, it continued to be an important port and manufacturing hub as well as a center for education and culture. The city has expanded beyond the original peninsula through land reclamation and municipal annexation. Its rich history attracts many tourists, with Faneuil Hall alone drawing more than 20 million visitors per year. Boston's many firsts include the United States' first public or state school (Boston Latin School, 1635), first subway system (Tremont Street Subway, 1897), and first public park (Boston Common, 1634).
+				The Boston area's many colleges and universities make it an international center of higher education, including law, medicine, engineering, and business, and the city is considered to be a world leader in innovation and entrepreneurship, with nearly 2,000 startups. Boston's economic base also includes finance, professional and business services, biotechnology, information technology, and government activities. Households in the city claim the highest average rate of philanthropy in the United States; businesses and institutions rank among the top in the country for environmental sustainability and investment. The city has one of the highest costs of living in the United States as it has undergone gentrification, though it remains high on world livability rankings.
 
-	<script src="https://code.jquery.com/jquery-3.3.1.js">			
-  	</script>
+			</p>
+		</div>
+
+		<div class="places" id="places">
+			<div class="place faneuil">
+				<h2>Faneuil Hall</h2>
+				<p>Faneuil Hall, located near the waterfront and today's Government Center, in Boston, Massachusetts, has been a marketplace and a meeting hall since 1743. It was the site of several speeches by Samuel Adams, James Otis, and others encouraging independence from Great Britain. Now it is part of Boston National Historical Park and a well-known stop on the Freedom Trail. It is sometimes referred to as "the Cradle of Liberty".</p>
+			</div>
+			<div class="place mfa">
+				<h2>Museum of Fine Arts</h2>
+				<p>The Museum of Fine Arts in Boston, Massachusetts, is the fifth largest museum in the United States. It contains more than 450,000 works of art, making it one of the most comprehensive collections in the Americas. With more than one million visitors a year, it is the 43rd most-visited art museum in the world as of 2016.</p>
+			</div>
+			<div class="place trail">
+				<h2>The Freedom Trail</h2>
+				<p>The Freedom Trail is a 2.5-mile-long (4.0 km) path through downtown Boston, Massachusetts, that passes by 16 locations significant to the history of the United States. Marked largely with brick, it winds between Boston Common to the Bunker Hill Monument in Charlestown. Stops along the trail include simple explanatory ground markers, graveyards, notable churches and buildings, and a historic naval frigate. While most of the sites are free or suggest donations, the Old South Meeting House, the Old State House, and the Paul Revere House charge admission. The Freedom Trail is overseen by the City of Boston's Freedom Trail Commission and is supported in part by grants from various nonprofits and foundations, private philanthropy, and Boston National Historical Park.</p>
+			</div>
+			<div class="place aquarium">
+				<h2>New England Aquarium</h2>
+				<p>The New England Aquarium is an aquarium located in Boston, Massachusetts. In addition to the main aquarium building, attractions at the New England Aquarium include the Simons IMAX Theatre and the New England Aquarium Whale Watch, which operates from April through November. The aquarium has more than 22,000 members and hosts more than 1.3 million visitors each year.</p>
+			</div>
+		</div>
+
+		<div class="foods" id="foods">
+			
+		</div>
+
+		<div class="weather" id="weather">
+			<div id="cont_d8742316876b021037df16d14c51e54d"><script type="text/javascript" async src="https://www.theweather.com/wid_loader/d8742316876b021037df16d14c51e54d"></script></div>
+		</div>
+	</div>
+	
+	<footer id="footer">
+		<p>For more information, please visit www.boston.com</p>
+		<p>Created By Jiachen Yao</p>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   	<script type="text/javascript" src="Js/banner.js"></script>
 </body>
 </html>

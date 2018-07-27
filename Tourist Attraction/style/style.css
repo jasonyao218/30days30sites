@@ -55,3 +55,11 @@ nav ul li a{
 nav ul li a:focus{
 	outline: none;
 }
+
+footer{
+	color: #fff;
+	background: #333333;
+	height: 100%;
+	text-align: center;
+	border: 1px solid #333333;
+}
