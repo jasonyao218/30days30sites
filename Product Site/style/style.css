@@ -1,0 +1,147 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bgimg {
+	background: url(img/BG.jpg);
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: #fff;
+}
+
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.middle h1 {
+	font-size: 40px;
+	letter-spacing: 30px;
+	font-weight: 100;
+}
+
+#demo {
+	font-weight: lighter;
+	word-spacing: 20px; 
+}
+
+hr {
+	margin: auto;
+	width: 80%;
+	border: 1.5px solid #fff;
+}
+
+.content {
+	color: #062D48;
+	width: 80%;
+	left: 10%;
+	position: relative;
+}
+
+.content h1 {
+	margin: 60px auto;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+.content p {
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	line-height: 1.5;
+}
+
+footer {
+	border: 1px solid #062D48;
+	height: 60px;
+	color: #fff;
+	background: #062D48;
+	text-align: center;
+	padding: 20px auto;
+	margin-top: 60px;
+}
+
+.subscribe {
+	color: #062D48;
+	position: relative;
+	margin: 40px auto;
+}
+
+.subscribe h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+form {
+	margin-top: 40px;
+	position: relative;
+	text-align: center;
+}
+
+form input{
+	width: 300px;
+	height: 40px;
+	outline: none;
+}
+
+form input[type="email"]{
+	border: 1.5px solid #062D48;
+	height: 40px;
+}
+
+form input[type="submit"]{
+	width: 120px;
+	height: 46px;
+	background: #062D48;
+	color: #fff;
+	font-size: 18px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    padding-left: 12px;
+	font-size: 20px;
+}
+
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   	padding-left: 12px;
+	font-size: 20px;
+}
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  	padding-left: 12px;
+	font-size: 20px;
+}
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   	padding-left: 12px;
+	font-size: 20px;
+}
+
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   	padding-left: 12px;
+	font-size: 20px;
+}
+
+}
+::placeholder{
+	padding-left: 12px;
+	font-size: 20px;
+}
+
+
+
+
